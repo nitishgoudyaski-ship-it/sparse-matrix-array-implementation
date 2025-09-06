@@ -1,0 +1,16 @@
+How long did you spend on this assignment?  
+I spent about 2–3 hours working on this assignment, including reading about sparse matrix representations, writing the code, and testing it with different inputs.  
+
+Based on your effort, what letter grade would you say you earned?  
+I would give myself an A, because I carefully studied the topic, wrote clean code, and tested multiple cases.  
+
+Based on your solution, what letter grade would you say you earned?  
+I believe I earned an A, since the program compiles, runs correctly, and demonstrates both the triplet representation and the full matrix expansion.  
+
+Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.  
+My solution works for small and medium-sized matrices, but it is not optimized for very large sparse matrices. 
+For example, displaying the full matrix still requires iterating through every row and column, which reduces efficiency if the matrix is extremely large. 
+I also did not implement addition or multiplication of sparse matrices, which could be an extension of this project. 
+I initially struggled with storing the triplet data in a clean way, but using a `struct` with a vector made the implementation much simpler.  
+
+
