@@ -1,16 +1,15 @@
-How long did you spend on this assignment?  
-I spent about 2–3 hours working on this assignment, including reading about sparse matrix representations, writing the code, and testing it with different inputs.  
+How long did you spend on this assignment?
+I spent approximately 2–3 hours on this project, reading about sparse matrix representation, coding, and testing with different inputs.
 
-Based on your effort, what letter grade would you say you earned?  
-I would give myself an A, because I carefully studied the topic, wrote clean code, and tested multiple cases.  
+On your work, if you were marking yourself, what grade letter would you give yourself?
+I would give myself an A, as I read about the topic in depth, coded cleanly, and tested different cases.
 
-Based on your solution, what letter grade would you say you earned?  
-I believe I earned an A, since the program compiles, runs correctly, and demonstrates both the triplet representation and the full matrix expansion.  
+Based on your solution, what letter grade would you assign yourself?
+I believe I received an A, since the program compiles, runs correctly, and displays both the triplet form and the entire matrix expansion.
 
-Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.  
-My solution works for small and medium-sized matrices, but it is not optimized for very large sparse matrices. 
-For example, displaying the full matrix still requires iterating through every row and column, which reduces efficiency if the matrix is extremely large. 
-I also did not implement addition or multiplication of sparse matrices, which could be an extension of this project. 
-I initially struggled with storing the triplet data in a clean way, but using a `struct` with a vector made the implementation much simpler.  
-
+Provide a summary of what doesn't work in your solution, and include an explanation of how you attempted to solve the problem and where you felt like you struggled.
+My solution is effective for small and medium-sized matrices but not necessarily optimized for very big sparse matrices.
+For instance, printing the entire matrix also involves iterating over each row and column, which hampers efficiency if the matrix happens to be very large.
+I also did not apply addition or multiplication of sparse matrices, something that might be an extension of this project.
+It was difficult initially to store the triplet data in an organized way, but using a struct and a vector made it all easier.
 
