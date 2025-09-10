@@ -49,13 +49,13 @@ public:
 };
 
 int main() {
-    SparseMatrix sm(4, 5);
+    SparseMatrix sm(5, 6); // Changed matrix dimensions to 5x6
 
-    // Adding non-zero elements
-    sm.addElement(0, 1, 10);
-    sm.addElement(1, 3, 20);
-    sm.addElement(2, 2, 30);
-    sm.addElement(3, 0, 40);
+    // New non-zero elements (different from original example)
+    sm.addElement(0, 2, 5);
+    sm.addElement(1, 5, -3);
+    sm.addElement(3, 1, 12);
+    sm.addElement(4, 4, 7);
 
     cout << "Sparse Matrix in Triplet Form:" << endl;
     sm.displayTriplet();
